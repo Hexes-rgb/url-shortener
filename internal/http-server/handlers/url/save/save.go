@@ -27,6 +27,7 @@ type Response struct {
 // move to config
 const aliasLength = 6
 
+//go:generate
 type URLSaver interface {
 	SaveURL(urlToSave string, alias string) (int64, error)
 }

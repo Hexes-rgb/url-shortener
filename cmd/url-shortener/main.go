@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"os"
 	"url-shortener/internal/config"
-	save "url-shortener/internal/http-server/handlers/url"
+	"url-shortener/internal/http-server/handlers/url/save"
 	"url-shortener/internal/http-server/middleware/logger"
 	"url-shortener/internal/lib/logger/sl"
 	"url-shortener/internal/lib/logger/sl/handlers/slogpretty"
